@@ -1,0 +1,75 @@
+
+.dashboard-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.dashboard-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dashboard-input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.dashboard-submit-btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dashboard-submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 15px;
+    }
+
+    .dashboard-form {
+        gap: 12px;
+    }
+
+    .dashboard-input {
+        padding: 10px;
+    }
+
+    .dashboard-submit-btn {
+        padding: 10px 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboard-container {
+        padding: 10px;
+    }
+
+    .dashboard-form {
+        gap: 10px;
+    }
+
+    .dashboard-input {
+        padding: 8px;
+    }
+
+    .dashboard-submit-btn {
+        padding: 8px 16px;
+    }
+}

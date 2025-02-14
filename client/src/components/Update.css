@@ -1,0 +1,73 @@
+
+.update-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.update-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.update-list {
+    list-style: none;
+    padding: 0;
+}
+
+.update-item {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-course {
+    font-weight: bold;
+}
+
+.update-status {
+    color: #4CAF50;  /* Green color for the status */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .update-container {
+        padding: 15px;
+    }
+
+    .update-title {
+        font-size: 1.5rem;
+    }
+
+    .update-item {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .update-container {
+        padding: 10px;
+    }
+
+    .update-title {
+        font-size: 1.2rem;
+    }
+
+    .update-item {
+        padding: 6px;
+    }
+
+    .update-course, .update-status {
+        font-size: 0.9rem;
+    }
+}
