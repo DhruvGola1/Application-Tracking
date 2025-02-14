@@ -1,1 +1,2 @@
 # Application-Tracking
+The development process for building a web application with React, Node.js, Express.js, and MongoDB was structured and methodical, focusing on creating a robust, user-friendly system that could handle user authentication, application creation, course management, and data storage. The project’s key objectives were to implement a responsive frontend, design efficient backend routes, ensure secure authentication, and utilize a MongoDB database to store and manage user and application data.
